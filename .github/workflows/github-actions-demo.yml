@@ -1,0 +1,10 @@
+name: alawamyDemo
+run-name: newDemo
+
+on: [push]
+
+jobs: 
+  firstJob:
+    run-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
